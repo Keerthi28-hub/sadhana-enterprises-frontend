@@ -1,0 +1,40 @@
+import mongoose from "mongoose";
+
+const leadSchema = new mongoose.Schema({
+  phone: {
+    type: String,
+    required: true,
+  },
+
+  createdAt: {
+    type: Date,
+    default: Date.now,
+  },
+});
+/* ================= CONTACT SCHEMA ================= */
+
+const contactSchema = new mongoose.Schema(
+  {
+    name: {
+      type: String,
+      required: true,
+    },
+
+    phone: {
+      type: String,
+      required: true,
+    },
+
+    message: {
+      type: String,
+      required: true,
+    },
+  },
+  { timestamps: true }
+);
+
+const Contact = mongoose.model("Contact", contactSchema);
+
+const Lead = mongoose.model("Lead", leadSchema);
+
+export default Lead;
