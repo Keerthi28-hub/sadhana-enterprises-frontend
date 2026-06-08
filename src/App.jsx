@@ -5,16 +5,16 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 
 import Hero from "./components/Hero";
-import ContactPage from "./pages/ContactPage";
+import ContactPage from "./Pages/ContactPage";
 import ProductsSection from "./components/ProductsSection";
-import ProfilePage from "./pages/ProfilePage";
+import ProfilePage from "./Pages/ProfilePage";
 import WelcomeSection from "./components/WelcomeSection";
-import ProductDetailsPage from "./pages/ProductDetailsPage";
+import ProductDetailsPage from "./Pages/ProductDetailsPage";
 import RequirementBox from "./components/RequirementBox";
 import ShowcaseCarousel from "./components/ShowcaseCarousel";
 
 import ReviewsSection from "./components/ReviewsSection";
-import ReviewsPage from "./pages/ReviewsPage";
+import ReviewsPage from "./Pages/ReviewsPage";
 
 import EmailModal from "./components/EmailModal";   // ✅ ADD
 import CallModal from "./components/CallModal"; 
